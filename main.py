@@ -9,8 +9,8 @@ user_bet = screen.textinput(title="Who will win?", prompt="Lewis in black, Max i
                                                           "\nType in name of the driver who you think will win: ")
 names = ["lewis", "max", "fernando", "mika", "michael", "sebastien"]
 colors = ["black", "DarkOrange", "LightSkyBlue", "gray80", "red", "navy"]
-cars = ["formula_black.gif", "formula_orange.gif", "formula_blue.gif",
-        "formula_gray.gif", "formula_red.gif", "formula_navy.gif"]
+cars = ["assets/formula_black.gif", "assets/formula_orange.gif", "assets/formula_blue.gif",
+        "assets/formula_gray.gif", "assets/formula_red.gif", "assets/formula_navy.gif"]
 y_position = [-225, -135, -45, 45, 135, 225]
 all_turtles = []
 
