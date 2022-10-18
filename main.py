@@ -1,7 +1,7 @@
 from turtle import Turtle, Screen
 import random
 
-is_race_on = False
+IS_RACE_ON = False
 screen = Screen()
 screen.setup(width=1200, height=600)
 user_bet = screen.textinput(title="Who will win?", prompt="Lewis in black, Max in orange, Fernando in blue, "
@@ -26,9 +26,9 @@ turtle_b = Turtle()
 turtle_b.hideturtle()
 
 if user_bet:
-    is_race_on = True
+    IS_RACE_ON = True
 
-while is_race_on:
+while IS_RACE_ON:
     for turtle in all_turtles:
         random_distance = random.randint(0, 10)
         turtle.forward(random_distance)
@@ -57,6 +57,6 @@ while is_race_on:
                                font=('Courier', 30, 'normal'), align='center')
                 turtle_b.hideturtle()
 
-            is_race_on = False
+            IS_RACE_ON = False
 
 screen.exitonclick()
