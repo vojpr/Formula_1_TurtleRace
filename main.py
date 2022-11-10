@@ -6,7 +6,7 @@ screen = Screen()
 screen.setup(width=1200, height=600)
 user_bet = screen.textinput(title="Who will win?", prompt="Lewis in black, Max in orange, Fernando in blue, "
                                                           "Mika in grey, Michael in red or Sebastien in navy."
-                                                          "\nType in name of the driver who you think will win: ")
+                                                          "\nType in name of the driver who you think will win:")
 names = ["lewis", "max", "fernando", "mika", "michael", "sebastien"]
 colors = ["black", "DarkOrange", "LightSkyBlue", "gray80", "red", "navy"]
 cars = ["assets/formula_black.gif", "assets/formula_orange.gif", "assets/formula_blue.gif",
